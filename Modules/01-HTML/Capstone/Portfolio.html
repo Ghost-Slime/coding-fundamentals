@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        td{
+            height: 100px;
+            width:  500px;
+            border:1px solid black;
+
+        }
+        .head{
+            text-align: center;
+        }
+        .f{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .button{
+            text-align: center;
+        }
+        .image{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+</html>
+<body>
+  <header>
+    <h1>Kong Seh Len</h1>
+    <h2>Fresh Graduate Degree</h2>
+  </header>
+
+  <main>
+    <section>
+        <table>
+            <tr>
+                <td style="vertical-align:top;padding-top:0px">
+                    <h2>About Me</h2>
+                        <div>Hello, my name is Kong Seh Len.</div>
+                        <span>I am a fresh graduate degree tech student who right now are training and learning things in Sigma School.</span>    
+                </td>
+                <td>
+                    <h2>My Hobbies</h2>
+                    <ul>
+                        <li>Play Badminton</li>
+                        <li>Play Games</li>
+                        <li>Watch Movie</li>
+                    </ul>
+                </td>
+                <td rowspan="3">
+                    <img src="unknown.jpg" alt="Kong Seh Len" class="image">
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top;padding-top:0px">
+                    <h2>Career Objective</h2>
+                        <div>
+                            To work for an organization which is related to my current course (Computer Science/Information 
+                            Technology) that will provide challenges and gives opportunity for improvement to my professional 
+                            skills and knowledge to growth along with the organization objective.
+                        </div>
+                </td>
+                <td>
+                    <h2>Eductional Background</h2>
+                        <ul>
+                            <li>
+                                <span>Institution: UCSI University<span><br>
+                                <span>Duration : 2020 - 2022</span><br>
+                                <span>Program : Bachelor Of Science (Hons) in Computing</span><br>
+                                <span>Level : Degree</span><br>
+                                <span>CGPA : 3.67</span>
+                            </li>
+                        </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h2 class="head">Form</h2>
+                        <div style="text-align:center">Here is the form for users to add me as friend and ask question about me.</div>
+                    <table class="f">
+                        <tr>
+                            <td>
+                                <form>
+                                    <div>
+                                        <label for="Name">Name:</label>
+                                        <input type="text" placeholder="Name" id="Name" required>
+                                    </div>
+                                    <div>
+                                        <label for="Email">Email:</label>
+                                        <input type="email" placeholder="Email" id="Email" required>
+                                    </div>
+                                    <div>
+                                        <label for="Telephone">Telephone:</label>
+                                        <input type="number" placeholder="+60123456789" id="Telephone" required>
+                                    </div>
+                                    <div>Gender: </div>
+                                        <div>
+                                            <input type="radio" name="gender" id="male" value="male">
+                                            <label for="male">Male</label>
+
+                                            <input type="radio" name="gender" id="female" value="female">
+                                            <label for="female">Female</label>
+
+                                            <input type="radio" name="gender" id="other" value="other">
+                                            <label for="other">Other</label>
+                                        </div>
+                                    <div>
+                                        <label for="question">Question:</label>
+                                        <textarea name="question" id="question" cols="70" rows="7" placeholder="Enter your Question"></textarea>
+                                    </div> 
+                                    <div class="button">              
+                                        <button type="reset">Reset</button>
+                                        <button type="submit">Submit</button>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+      <h2>Kong Seh Len</h2>
+      <div><b>City Address:</b> No 37, CP4/36A Taman Cheras Perdana, Selangor, 43200</div>
+      <div><b>Mobile:</b> 012-3883400</div>
+      <div><b>Email:</b> kongsehlen@gmail.com</div>
+      <div><b>Copyright &#169;</b></div>
+    </footer>
+  </main>
+</body>
+</html>
