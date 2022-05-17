@@ -1,0 +1,170 @@
+body{
+    margin:0;
+}
+.navigator{
+    display:flex;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+li{
+    list-style-type: none;
+}
+svg{
+    width:50px;
+    height:50px;
+}
+.n1{
+    flex:1 1 10%;
+}
+.n2{
+    flex:1 1 120%;
+}
+.n3{
+    flex:1 1 10%;
+}
+.n4{
+    flex:1 1 10%;
+}
+.container{
+    display:flex;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 230, 221);
+}
+.content{
+    flex:1 1 20%;
+    margin:10px;
+}
+.container2{
+    display:flex;
+    margin:0;
+    padding:10px;
+    width:auto;
+    height:500px;
+    background-color: lightblue;
+}
+.flex-item1{
+    order:1;
+    flex: 1 1 20%;
+    background-color: rgb(47, 255, 109);
+}
+.flex-item2{
+    order:2;
+    flex: 1 1 70%;
+    background-color: darkgrey;
+}
+img{
+    width:30px;
+    height:30px
+}
+.contact{
+    display:flex;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    flex:1 1 10%;
+}
+.c2{
+    flex:1 1 100%;
+}
+.email{
+    display:flex;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+
+}
+.e1{
+    flex:1 1 10%;
+}
+.e2{
+    flex:1 1 100%;
+}
+.social{
+    display:flex;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+.s1{
+    flex:1 1 10%;
+}
+.s2{
+    flex:1 1 10%;
+}
+.s3{
+    flex:1 1 10%;
+}
+.form{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+}
+.f1{
+    display: flex;
+    height: 25px;
+    width: 510px;
+    margin:0;
+    padding:0;
+}
+.f2{
+    display:flex;
+    justify-content: end;
+    align-items: flex-end;
+    width:513px;
+    height:35px;
+}
+.a{
+    flex:1 1 10%;
+}
+.b{
+    flex:1 1 10%;
+}
+.c{
+    flex:1 1 0%   
+}
+.d{
+    flex:1 1 10%;
+}
+.e{
+    justify-content: flex-end;
+    color:white;
+}
+input[type='number']{
+    width: 250px;
+} 
